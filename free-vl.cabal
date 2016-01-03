@@ -1,12 +1,14 @@
 name:                free-vl
-version:             0.1.1
+version:             0.1.2
 synopsis:            van Laarhoven encoded Free Monad with Extensible Effects
 description:
   The van Laarhoven encoding of Free Monads, both the original and with extensible effects.
   .
   For more information on the van Laarhoven Free Monads, including examples,
   please see the following blog posts:
+  .
   Initial formulation by Russell O'Connor: <http://r6.ca/blog/20140210T181244Z.html>
+  .
   Adding Extensible Effects by Aaron Levin: <http://aaronlevin.ca/post/136494428283/extensible-effects-in-the-van-laarhoven-free-monad>
 
 homepage:            http://github.com/aaronlevin/free-vl
