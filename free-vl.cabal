@@ -1,14 +1,14 @@
 name:                free-vl
 version:             0.1.0.0
-synopsis:            Initial project template from stack
+synopsis:            van Laarhoven encoded Free Monad with Extensible Effects
 description:         Please see README.md
-homepage:            http://github.com/githubuser/free-vl#readme
+homepage:            http://github.com/aaronlevin/free-vl
 license:             BSD3
 license-file:        LICENSE
-author:              Author name here
-maintainer:          example@example.com
-copyright:           2010 Author Here
-category:            Web
+author:              Aaron Levin
+maintainer:          Aaron Levin <aaron.michael.benjamin.levin@gmail.com>
+copyright:           2016 Aaron Levin
+category:            Control, Monads
 build-type:          Simple
 -- extra-source-files:
 cabal-version:       >=1.10
@@ -40,4 +40,4 @@ test-suite free-vl-test
 
 source-repository head
   type:     git
-  location: https://github.com/githubuser/free-vl
+  location: https://github.com/aaronlevin/free-vl
