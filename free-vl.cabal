@@ -1,5 +1,5 @@
 name:                free-vl
-version:             0.1.2
+version:             0.1.3
 synopsis:            van Laarhoven encoded Free Monad with Extensible Effects
 description:
   The van Laarhoven encoding of Free Monads, both the original and with extensible effects.
