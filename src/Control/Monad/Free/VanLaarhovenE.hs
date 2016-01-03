@@ -24,9 +24,9 @@
 
 module Control.Monad.Free.VanLaarhovenE
   ( (.:.)
-  , Effects (EmptyE, ConsE)
-  , Free(runFree)
-  , HasEffect
+  , Effects (..)
+  , Free(..)
+  , HasEffect(..)
   , iterM
   , liftF
   ) where
