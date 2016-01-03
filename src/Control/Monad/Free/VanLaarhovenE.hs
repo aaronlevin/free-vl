@@ -83,10 +83,8 @@ instance
   getEffect (ConsE effect _) = effect
 
 -- | A version of lift that can be used with an effect stack.
-liftF :: HasEffect effects effect
-      -- ^ constraint that ensures our effect is in the effect stack
-      => (forall m. effect m -> m a)
-      -- ^ method to pull our operation from our effect
+liftF :: HasEffect effects effect    -- constraint that ensures our effect is in the effect stack
+      => (forall m. effect m -> m a) -- method to pull our operation from our effect
       -> Free effects a
 liftF getOp = Free (getOp . getEffect)
 
