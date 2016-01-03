@@ -14,7 +14,7 @@
 -----------------------------------------------------------------------------
 
 module Control.Monad.Free.VanLaarhoven
-  ( Free(runFree)
+  ( Free(..)
   ) where
 
 import Control.Arrow ((&&&))
