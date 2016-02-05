@@ -17,7 +17,6 @@ module Control.Monad.Free.VanLaarhoven
   ( Free(..)
   ) where
 
-import           Control.Applicative
 import           Control.Arrow       ((&&&))
 
 -- | The van Laarhoven-encoded Free Monad
