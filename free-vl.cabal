@@ -19,7 +19,9 @@ maintainer:          Aaron Levin <aaron.michael.benjamin.levin@gmail.com>
 copyright:           2016 Aaron Levin
 category:            Control, Monads
 build-type:          Simple
--- extra-source-files:
+extra-source-files:
+  test/Spec.hs
+  examples/Main.hs
 cabal-version:       >=1.10
 
 library
