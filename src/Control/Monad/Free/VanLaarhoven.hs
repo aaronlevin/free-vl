@@ -17,7 +17,8 @@ module Control.Monad.Free.VanLaarhoven
   ( Free(..)
   ) where
 
-import Control.Arrow ((&&&))
+import           Control.Applicative
+import           Control.Arrow       ((&&&))
 
 -- | The van Laarhoven-encoded Free Monad
 newtype Free effect a =
