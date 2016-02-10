@@ -31,7 +31,7 @@ module Control.Monad.Free.VanLaarhovenE
   , liftF
   ) where
 
-import           Control.Arrow ((&&&))
+import           Control.Arrow       ((&&&))
 
 -- | a customized HList of effects. We need to carry the 'm' param around for
 -- type inference.
